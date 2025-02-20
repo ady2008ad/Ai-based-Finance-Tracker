@@ -1,0 +1,6 @@
+[
+    { "amount": 1500, "category": "Food", "date": "2025-02-10" },
+    { "amount": 8000, "category": "Rent", "date": "2025-02-15" },
+    { "amount": 3000, "category": "Shopping", "date": "2025-02-20" },
+    { "amount": 2000, "category": "Transport", "date": "2025-02-25" }
+]

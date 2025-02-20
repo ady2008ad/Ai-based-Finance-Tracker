@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Based Personal Finance Predictor</title>
+    <link rel="stylesheet" href="aditya.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <h1>AI-Based Personal Finance Predictor</h1>
+
+    <!-- Add Expense Button -->
+    <button onclick="addExpense()">Add Expense</button>
+
+    <!-- Pie Chart -->
+    <canvas id="expenseChart"></canvas>
+
+    <!-- AI Features -->
+    <div class="ai-features">
+        <button id="predictButton">Predict Future Expenses</button>
+        <p id="futureExpense">Estimated expenses will be shown here.</p>
+
+        <button id="investmentButton">Investment Suggestion</button>
+        <p id="investmentSuggestion">Investment suggestions will appear here.</p>
+
+        <button id="billReminderButton">Bill Payment Reminder</button>
+        <p id="billReminder">Your bill reminders will be shown here.</p>
+    </div>
+
+    <p id="savingGoal">Your recommended saving goal will be displayed here.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
