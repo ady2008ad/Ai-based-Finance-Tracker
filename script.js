@@ -78,7 +78,7 @@ function predictFutureExpenses() {
 
     let totalSpent = expenses.reduce((sum, expense) => sum + (expense.amount || 0), 0);
     let avgDailyExpense = totalSpent / expenses.length || 0;  
-    let futureExpense = avgDailyExpense * 30;  
+    let futureExpense = avgDailyExpense * 4;  
 
     document.getElementById("futureExpense").innerText = 
         "Estimated Expenses for Next Month: ₹" + futureExpense.toFixed(2);
